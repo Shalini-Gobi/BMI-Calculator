@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        body {
+            background-color: blue;
+            text-align: center;
+            color: white; /* Change text color to white for better visibility */
+        }
+    </style>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form method="post" action="/">
+        <label for="height">Height (m):</label>
+        <input type="number" step="any" name="height" required><br><br>
+        <label for="weight">Weight (kg):</label>
+        <input type="number" step="any" name="weight" required><br><br>
+        <input type="submit" value="Calculate BMI">
+    </form>
+</body>
+</html>
